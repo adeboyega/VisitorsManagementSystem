@@ -12,7 +12,7 @@ function App() {
 			<main class="container">
 				<h2>Visitors Management System</h2>
 			</main>
-			<Footer />
+			<Footer  />
 		</>
 	);
 }
