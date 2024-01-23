@@ -1,17 +1,21 @@
 import { useState } from "react";
 import "./App.css";
-import Nav from "./components/Nav";
+import "./index.css"
 import Footer from "./components/Footer";
+import LayOut from "./components/Layout";
+
+
+
+
+
 function App() {
-	// const [count, setCount] = useState(0)
+
 
 	return (
 		<>
-			<Nav />
+		
+			<LayOut />
 
-			<main class="container">
-				<h2>Visitors Management System</h2>
-			</main>
 			<Footer  />
 		</>
 	);
