@@ -21,7 +21,6 @@ const menuItems = [
   { key: "admin", label: "Admin" },
   { key: "logout", label: "Logout" },
 ];
-
 const submenuItems = [
   {
     icon: DashboardOutlined,
