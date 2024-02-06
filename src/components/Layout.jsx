@@ -194,6 +194,7 @@ const LayOut = () => {
                 hoverable
                 style={{
                   width: 240,
+                  textShadow: 5,
                 }}
                 cover={
                   <img
