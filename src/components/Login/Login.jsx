@@ -6,7 +6,8 @@ import { IoPersonAddOutline } from "react-icons/io5";
 
 const Login = () => {
 	return (
-		<div name='login' className="logincover flex h-screen justify-center items-center m-auto ">
+		<div name='login' className="logincover flex h-screen justify-center items-center m-auto  ">
+			{/* <div className='absolute inset-0 bg-gray-900 bg-opacity-50'></div> */}
 			<form className="text-sm w-[30%] my-10 p-4 flex flex-col gap-4 h-full justify-center items-center">
 			<h1 className=" font-bold text-2xl text-gray-100">Login</h1>
 			<p className="flex gap-2 text-gray-100 ">

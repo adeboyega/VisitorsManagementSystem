@@ -32,7 +32,9 @@
 }
 .logincover{
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/images/Nigeriansoilder.png'); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1500822425/photo/hotel-guest-at-empty-reception-desk.jpg?s=612x612&w=0&k=20&c=IIxNFf-j9RDdze3rf_PK8lQe14zz_CmZLCubWd2r9h8= ');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' https://media.istockphoto.com/id/1500822425/photo/hotel-guest-at-empty-reception-desk.jpg?s=612x612&w=0&k=20&c=IIxNFf-j9RDdze3rf_PK8lQe14zz_CmZLCubWd2r9h8= ');
   background-size: cover;
   background-position: center;
+  opacity: 0.9;
+  
 }
