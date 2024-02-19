@@ -3,7 +3,7 @@ import "./App.css";
 import "./index.css"
 import Footer from "./components/Footer";
 import LayOut from "./components/Layout";
-import Login from "./components/Login/Login";
+import Login from "./pages/Login";
 
 
 
