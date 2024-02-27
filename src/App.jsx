@@ -13,7 +13,7 @@ function App() {
 	return (
 		<div>
 		
-			<LayOut />
+			{/* <LayOut /> */}
 			<Login />
 			<Footer  />
 		</div>
