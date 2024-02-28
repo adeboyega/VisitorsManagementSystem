@@ -4,8 +4,15 @@ import { CiLock } from "react-icons/ci";
 import { EmblaCarousel } from "../components/EmblaCarousel";
 import { IoPersonAddOutline } from "react-icons/io5";
 import { FaAngleDown } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+	const navigate = useNavigate()
+	const handlesunmit =()=>{
+		
+		navigate('/layout')
+		
+	}
 	return (
 		<div
 			name="login"
@@ -37,7 +44,7 @@ const Login = () => {
 					placeholder="Name  "
 				/>
 				<input type="password" placeholder="Password " className="bg-slate-600 border-none" />
-				<button className="px-6 py-3 w-40 border-1 border-blue-200 text-gray-100 hover:text-gray-600 hover:bg-gray-50">
+				<button onClick={handlesunmit} className="px-6 py-3 w-40 border-1 border-blue-200 text-gray-100 hover:text-gray-600 hover:bg-gray-50">
 					Submit
 				</button>
 			</form>
