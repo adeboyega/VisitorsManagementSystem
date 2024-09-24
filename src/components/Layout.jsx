@@ -125,6 +125,7 @@ const LayOut = () => {
 							borderRadius: borderRadiusLG,
 						}}>
 						<div className="flex gap-10 mt-16 flex-wrap">
+							<Link to='/pages/Branches/Dhq'>
 							<Card
 								hoverable
 								style={{
@@ -142,7 +143,9 @@ const LayOut = () => {
 									className="text-bolder font-mono text-2xl tracking-wide text-center"
 								/>
 							</Card>
+							</Link>
 							{/* ************************** */}
+							<Link to ='/pages/Branches/Army'>
 							<Card
 								hoverable
 								style={{
@@ -159,9 +162,10 @@ const LayOut = () => {
 									description=""
 									className="text-bolder font-mono text-2xl tracking-wide text-center"
 								/>
-							</Card>
+							</Card></Link>
 
 							{/* ************************************* */}
+							<Link to='/pages/Branches/Navy'>
 							<Card
 								hoverable
 								style={{
@@ -180,9 +184,11 @@ const LayOut = () => {
 									className="text-bolder font-mono text-2xl tracking-wide text-center"
 								/>
 							</Card>
+							</Link>
 
 							{/* ***************************************** */}
 
+							<Link to='/pages/Branches/Airforce'>
 							<Card
 								hoverable
 								style={{
@@ -201,6 +207,7 @@ const LayOut = () => {
 									className="text-bolder font-mono text-2xl tracking-wide text-center"
 								/>
 							</Card>
+							</Link>
 						</div>
 					</Content>
 				</Layout>
